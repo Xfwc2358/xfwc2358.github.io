@@ -1,0 +1,15 @@
+<div id="container"></div>
+<link rel="stylesheet" href="https://xfwc2358.github.io/gitment/style/default.css">
+<script src="https://xfwc2358.github.io/gitment/dist/gitment.browser.js"></script>
+<script>
+var gitment = new Gitment({
+  id: '页面 ID', // 可选。默认为 location.href
+  owner: 'Xfwc2358',
+  repo: 'New Comment',
+  oauth: {
+    client_id: '262648787339ccd338b1',
+    client_secret: '1d12d009e419912898a6ac0db671d551a2fb8d33',
+  },
+})
+gitment.render('container')
+</script>
